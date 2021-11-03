@@ -1,0 +1,132 @@
+/* #231f20 */
+
+@font-face {
+    font-family: Copperlate;
+    src: url("font/ttf/Copperplate.ttf");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Copperplate;
+    src: url("font/otf/CopperplateCC-Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Copperplate;
+    font-weight: bold;
+    src: url("font/otf/CopperplateCC-Bold.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Copperplate';
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #efeee0;
+    color: #231f20;
+}
+
+.nav h1 {
+    font-size: 3rem;
+}
+
+.nav h3 {
+    font-weight: lighter;
+}
+
+.header {
+    height: 50rem;
+    background-image: url('photo2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #efeee0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    margin-left: 25%;
+    color: white;
+}
+
+.intro h1 {
+    font-size: 5rem;
+    color: #f9e4b7;
+}
+
+.intro h2 {
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.intro h2 {
+    font-size: 3rem;
+}
+
+main {
+    background-color: #efeee0;
+    padding-bottom: 2rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #231f20;
+    padding: 1.5rem;
+}
+
+.prodotti {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+}
+
+.pacchetto {
+    width: 31%;
+    background-color: #231f20;
+    border-radius: 6px;
+}
+
+.pacchetto h4 {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: #f9e4b7;
+}
+
+.pacchetto p {
+    color: #f9e4b7;
+}
+
+table {
+    width: 90%;
+    margin: 5%;
+    color: #f9e4b7;
+}
+
+td {
+    text-align: right;
+    min-width: 80px;
+}
+
+.l {
+    text-align: left;
+}
+
+footer {
+    height: 5rem;
+    background-color: #efeee0;
+}
